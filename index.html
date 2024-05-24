@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="modeToggle">
+        <span class="label">Modo Oscuro</span>
+        <input type="checkbox" id="toggleDarkMode">
+    </div>
+    <div id="hangmanContainer">
+        <div id="hangmanBase" class="hangman-part"></div>
+        <div id="hangmanPole" class="hangman-part"></div>
+        <div id="hangmanBeam" class="hangman-part"></div>
+        <div id="hangmanRope" class="hangman-part"></div>
+        <div id="hangmanHead" class="hangman-part"></div>
+        <div id="hangmanBody" class="hangman-part"></div>
+        <div id="hangmanLeftArm" class="hangman-part"></div>
+        <div id="hangmanRightArm" class="hangman-part"></div>
+        <div id="hangmanLeftLeg" class="hangman-part"></div>
+        <div id="hangmanRightLeg" class="hangman-part"></div>
+    </div>
+    <div id="wordContainer"></div>
+    <div id="hintContainer"></div>
+    <button id="startButton">Iniciar Juego</button>
+    <div id="gameMessage"></div>
+    <script src="script.js"></script>
+</body>
+</html>
